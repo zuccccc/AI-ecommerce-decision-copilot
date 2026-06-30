@@ -26,4 +26,5 @@ How to Run Locally
 2. Install dependencies:
 
 #In terminal
+
 pip install -r requirements.txt
