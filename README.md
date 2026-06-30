@@ -66,3 +66,22 @@ This project demonstrates how AI can support business decision-making by turning
 * Add monthly trend analysis
 * Add more advanced customer behaviour analysis
 * Improve AI response formatting with charts and summaries
+
+
+## Screenshots
+
+### Business Insight Generator
+
+![Business Insight Generator](app_screenshots/business-insight-generator.png)
+
+### Customer Segmentation
+
+![Customer Segmentation](app_screenshots/customer-segmentation.png)
+
+### AI Copilot
+
+![AI Copilot](app_screenshots/ai-copilot.png)
+
+### AI Copilot Response
+
+![AI Copilot Response](app_screenshots/ai-copilot-response.png)
