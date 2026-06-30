@@ -266,7 +266,7 @@ Important Interpretation Notes:
 def ask_ai_copilot(user_question, data_context):
     
     response = client.chat.completions.create(
-        model="openrouter/free",
+        model="qwen/qwen3-next-80b-a3b-instruct:free",
         messages=[
             {
                 "role": "system",    #instructions for how the AI should behave
