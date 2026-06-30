@@ -9,10 +9,18 @@ import os
 # Load environment variables from .env file
 load_dotenv()
 
-# OpenRouter client setup
+#OpenRouter client setup
+#tweaked code to deploy to streamlit cloud. 
+#It will first look for the API key in Streamlit secrets, and if not found, 
+#it will fall back to the .env file.                                                          
+openrouter_api_key = st.secrets.get(
+    "OPENROUTER_API_KEY",
+    os.getenv("OPENROUTER_API_KEY")
+)
+
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("OPENROUTER_API_KEY"),
+    api_key=openrouter_api_key,
 )
 
 
