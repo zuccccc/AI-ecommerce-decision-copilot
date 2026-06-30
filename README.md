@@ -6,7 +6,7 @@ This project combines interactive data visualisation with an AI copilot powered 
 
 ## Live Demo
 
-[View the deployed Streamlit app](your-streamlit-url-here)
+[View the deployed Streamlit app](https://ecompilot.streamlit.app/)
 
 ## Project Overview
 
